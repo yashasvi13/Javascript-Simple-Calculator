@@ -1,0 +1,77 @@
+body{
+  font-family:'Orbitron',sans-serif;
+  background-color:#999;
+}
+#box{
+  margin-left:430px;
+  margin-top:70px;
+  width:310px;
+  height:500px;
+  border-radius:15px;
+  background-color:black;
+  padding:0px;
+  border: 5px solid #49fb35;
+}
+#display{
+  width:260px;
+  height:35px;
+  background-color:#bccd95;
+  margin:20px;
+  border-radius:6px;
+  padding:5px;
+    border: 3px solid #333 ;
+
+ }
+.head{
+  padding-top:8px;
+  color:#19a51a;
+  text-shadow: 2px 2px 4px;
+}
+#button{
+  margin:15px;
+ 
+}
+.clear:active{
+  background-color:#126313;
+  color:#49fb35;
+  border: 10px solid #49fb35;
+}
+.clear:hover{
+background-color:#126313;
+  color:#49fb35;
+  border: 3px solid #49fb35;
+}
+#zero{
+  width:110px;
+}
+
+.btn{
+   background-color:#49fb35;
+  color:#126313;
+  padding:10px;
+  margin:16px;
+  width:38px;
+  font-size:12px;
+  border: 1px solid #126313;
+  font-weight:bold;
+}
+.btn:hover{
+  background-color:#126313;
+  color:#49fb35;
+  border: 3px solid #49fb35;
+}
+.btn:active{
+background-color:#126313;
+  color:#49fb35;
+  border: 3px solid #49fb35;
+}
+
+
+
+.foot{
+  color:#126313;
+}
+footer{
+  padding-top:5px;
+  margin-left:444px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Yashasvi Jain</title>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <a class="navbar-brand">Javascript Calculator</a>
+  </nav>
+  <form id="box">
+      <h3 class="text-center head"> Calculate!</h3>
+    <input type="text" id="display" class="text-right"disabled>
+    <br>
+    <div id="buttons">
+      <input type="button" class="clear btn" id="keys" value="AC"onclick='addtoscreen("C")'>
+      <input type="button" class="btn " value="CE" id="keys"onclick='backspace()'></button>
+      <input type="button" class="btn" id="keys"    value="/"onclick='addtoscreen("/")'></button>
+      <input type="button" class="btn " id="keys"value="*" onclick='addtoscreen("*")'></button>
+      <input type="button" class="btn " id="keys"value="7" onclick='addtoscreen("7")'></button>
+      <input type="button" class="btn "id="keys" value=8 onclick='addtoscreen("8")'></button>
+      <input type="button" class="btn "id="keys" value="9"onclick='addtoscreen("9")'></button>
+      <input type="button" class="btn "id="keys" value="-" onclick='addtoscreen("-")'></button>
+      <input type="button" class="btn"id="keys" value="4" onclick='addtoscreen("4")'></button>
+      <input type="button" class="btn"id="keys" value="5" onclick='addtoscreen("5")'></button>
+      <input type="button" class="btn"id="keys" value="6" onclick='addtoscreen("6")'></button>
+      <input type="button" class="btn"id="keys" value="+" onclick='addtoscreen("+")'></button>
+      <input type="button" class="btn"id="keys" value="1" onclick='addtoscreen("1")'></button>
+      <input type="button" class="btn" id="keys"value="2" onclick='addtoscreen("2")'></button>
+      <input type="button" class="btn" id="keys"value="3" onclick='addtoscreen("3")'></button>
+      <input type="button" class="btn" id="keys" value="=" onclick='answer()'></button>
+      <input type="button" class="btn" id="zero" value="0"onclick='addtoscreen("0")'></button>
+      <input type="button" class="btn" id="keys"value="."onclick='addtoscreen(".")'></button>
+      <input type="button" class="btn" id="keys"value="X^2"onclick='power()'></button>
+      </form>
+      
+  </div>
+  </div>
+  <footer>Designed and Coded by<a class="foot"href="https://github.com/yashasvi13"> Yashasvi Jain</a>
+    </div>
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
